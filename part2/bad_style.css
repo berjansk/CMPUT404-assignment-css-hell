@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Dr+Sugiyama);
+
+body{
+	background-color:#aaa;
+	font-family: 'Dr Sugiyama', cursive;
+	white-space:nowrap;
+	font-size:110%;
+}
+
+#wrapper > div{
+	padding: 5px 20px;
+}
+#wrapper{
+transform:rotate(7deg);
+-ms-transform:rotate(7deg); /* IE 9 */
+-webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
+	background-color:white;
+	
+	margin:auto;
+	box-shadow:         0px 5px 15px 0px rgba(50, 50, 50, 0.34);
+}
+
+#header{
+background: magenta;
+
+color:white;
+font-weight:700;
+font-size:400%;
+white-space:nowrap;
+}
+
+#header > h1{
+transform:rotate(-7deg);
+-ms-transform:rotate(-7deg); /* IE 9 */
+-webkit-transform:rotate(-7deg); /* Opera, Chrome, and Safari */	
+ margin:0px;
+}
+#content{
+	float:left;
+	width: 65%;
+}
+
+#sidebar{
+
+	float:right;
+	width:20%;
+	background-color:magenta;
+	color:purple;
+	margin-right:5%;
+}
+
+#sidebar li{
+	font-size:300%;
+}
+.clear{
+	clear:both;
+}
+
+.section{
+	clear:both;
+	border-top:1px solid #aaa;
+	margin:10px;
+}
+
+ .photo{
+	width:150px;
+	float:right;
+	margin:10px;
+	border:15px solid magenta;
+}
+
+.section > h2{
+	font-size:300%;
+	color:magenta;
+transform:rotate(-7deg);
+-ms-transform:rotate(-7deg); /* IE 9 */
+-webkit-transform:rotate(-7deg); /* Opera, Chrome, and Safari */		
+}
+
+.section > p{
+	transform:rotate(-14deg);
+-ms-transform:rotate(-14deg); /* IE 9 */
+-webkit-transform:rotate(-14deg); /* Opera, Chrome, and Safari */	
+}
