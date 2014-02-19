@@ -21,12 +21,15 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+CSS licensed to Olexiy Berjanskii CC Attribution-NonCommercial-NoDerivs 
+
 
 The Actual Readme
 =================
 
 Part 1
 ======
+In folder "part1"
 
 In order to add style to the documents a stylesheet ('style.css') was created.
 
@@ -37,3 +40,8 @@ To apply the stylesheet to the files the line:
 Was inserted into the head element of each html file.
 
 Huckleberry fin was a work with images, all image paths were replaced with absolute paths to the gutenberg hosted images.
+
+Part 2
+======
+In folder "part2"
+good.html and bad.html are the same except for referencing good_style.css and bad_style.css respectively.
