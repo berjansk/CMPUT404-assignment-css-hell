@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Allura);
+
+h1, h2, h3, h4, h5{
+	color: brown;
+	font-family: 'Allura', cursive;	
+}
+
+p{
+	padding-left: 10%;
+	padding-right: 10%;
+	max-width:800px;
+	margin:auto;
+	display:block;
+}
+
+img{
+	max-width:800px;
+	border: 1px solid brown;
+}
+
+body{
+	background-color:beige !important;
+}

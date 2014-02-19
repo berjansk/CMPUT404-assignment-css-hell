@@ -22,3 +22,18 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+The Actual Readme
+=================
+
+Part 1
+======
+
+In order to add style to the documents a stylesheet ('style.css') was created.
+
+To apply the stylesheet to the files the line:
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+Was inserted into the head element of each html file.
+
+Huckleberry fin was a work with images, all image paths were replaced with absolute paths to the gutenberg hosted images.
